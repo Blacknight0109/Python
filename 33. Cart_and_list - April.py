@@ -1,0 +1,5 @@
+cart = list()
+name = input("Hi! pls type your name ")
+item = input("Pls type your items ")
+cart.append(item)
+print ("In your cart there are {}".format(cart[0]))
