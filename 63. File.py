@@ -7,14 +7,14 @@ for k in File:
     lines.add(k)
     if ("Jaishnav" in k):
         CountJaishnav = CountJaishnav + 1
+        
     elif ("Prem" in k):
         CountPrem = CountPrem + 1
+        
     elif ("Deepanshu" in k):
         CountDeepanshu = CountDeepanshu + 1
         
     #if ("Jaishnav" in k):
         #print("Jaishnav is present")
         #break
-print(CountJaishnav)
-print(CountPrem)
-print(CountDeepanshu)
+print("There are {} Jaishnav, {} Prem and {} Deepanshu".format(CountJaishnav, CountPrem, CountDeepanshu))
